@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+    /* card width mobile */
+    .cwm { 
+      width: 300px;
+    }
+    /* card width desktop */
+    .cwd {
+      width: 320px;
+    }
+    /* font size - title */
+    .fst {
+      font-size: 22px;
+    }
+    /* font size - description */
+    .fsd {
+      font-size: 16px;
+    }
+}
